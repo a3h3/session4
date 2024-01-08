@@ -1,0 +1,88 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+body
+{
+    font-family: sans-serif;
+    background-color: red;
+}
+.main
+{
+    margin: 40px auto;
+    width: 80%;
+    background-color: #fff;
+}
+
+.main header
+{
+    margin: 0 auto;
+    width: 80%;
+    padding-top: 20px;
+}
+
+.main header .container
+{
+    background-color: #000;
+    text-align: center;
+    padding: 10px;
+}
+
+.main header .container a
+{
+    text-decoration: none;
+    color: #fff;
+    margin-right: 60px;
+}
+
+section .container
+{
+    margin: 0 auto;
+    width: 80%;
+}
+
+/* ================================================================================= */
+#ABOUT h2
+{
+    text-align: center;
+    line-height: 3;
+    letter-spacing: 10px;
+}
+
+#ABOUT p
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#ABOUT img
+{
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* ======================================================================================= */
+
+#WORK .cards
+{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px 0;
+}
+
+#WORK .cards .card
+{
+    width: 32.33%;
+}
+
+#WORK .cards .card img
+{
+    width: 100%;
+}
